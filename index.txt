@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>brian's site</title>
+    <link rel="stylesheet" href="styles/main.css">
+</head>
+<body>
+    <div id="center-column">
+        <pre>
+-----------------------------------------------
+----- brian's ---------------------------------
+-----------------------------------------------
+------------------------------ official -------
+---------------------- web --------------------
+------------------------------------- site ----
+-----------------------------------------------
+
+hi, i'm brian.
+designer / engineer / artist 
+interested in collaborations
+
+links:
+<a href="posts/free-ideas.html">→ ideas i wish i had time for</a>
+<a href="about.html">→ about / contact</a>
+<a href="projects.html">→ projects</a>
+
+goals here are: increase luck surface 
+area for making friends, finding cool jobs,
+art collaborators, startup cofounders, etc
+        </pre>
+    </div>
+</body>
+</html>
