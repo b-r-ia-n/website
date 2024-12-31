@@ -1,13 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>brian's site</title>
-    <link rel="stylesheet" href="styles/main.css">
-</head>
-<body>
+    <meta name="description" content="brian's website"/>
+    <meta name="author" content="brian!" />
+    <link rel="stylesheet" href="./styles/main.css">
+  </head>
+  <body>
     <div id="center-column">
+      <header>
         <pre>
 -----------------------------------------------
 ----- brian's ---------------------------------
@@ -16,20 +19,27 @@
 ---------------------- web --------------------
 ------------------------------------- site ----
 -----------------------------------------------
+        </pre>
+      </header>
 
-hi, i'm brian.
-designer / engineer / artist 
-interested in collaborations
+      <nav>
+        <pre>
+contents
 
-links:
-<a href="posts/free-ideas.html">→ ideas i wish i had time for</a>
-<a href="about.html">→ about / contact</a>
-<a href="projects.html">→ projects</a>
+<a href="/projects.html">projects</a>
+<a href="/posts/free-ideas.html">ideas</a>
+<a href="/words.html">writing</a>
+<a href="/about.html">hmu!! (contact)</a>
+        </pre>
+      </nav>
 
+      <main>
+        <pre>
 goals here are: increase luck surface 
 area for making friends, finding cool jobs,
 art collaborators, startup cofounders, etc
         </pre>
+      </main>
     </div>
-</body>
+  </body>
 </html>
