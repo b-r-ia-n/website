@@ -1,0 +1,77 @@
+/* Base styles */
+@font-face {
+    font-family: 'CP_Mono_Plain';
+    src: url('../fonts/CPMono_v07_Plain.otf') format('opentype');
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'CP_Mono_Plain', monospace;
+    line-height: 1.6;
+    padding: 2rem;
+    max-width: 100vw;
+    overflow-x: hidden;
+}
+
+/* Layout */
+#center-column {
+    width: 100%;
+    max-width: 670px;
+    margin: 0 auto;
+    padding: 1rem;
+}
+
+/* Typography */
+.ascii-header {
+    white-space: pre;
+    margin: 2rem 0;
+}
+
+/* Navigation */
+nav {
+    margin: 2rem 0;
+}
+
+nav a {
+    display: inline-block;
+    margin-right: 1rem;
+    text-decoration: none;
+}
+
+/* Links */
+a:link {
+    color: #c6962e;
+}
+
+a:visited {
+    color: rgb(209, 35, 151);
+}
+
+a:hover {
+    color: cornflowerblue;
+}
+
+a:active {
+    color: #000000;
+}
+
+/* Content sections */
+main {
+    margin: 2rem 0;
+}
+
+/* Responsive adjustments */
+@media (max-width: 700px) {
+    body {
+        padding: 1rem;
+    }
+    
+    .ascii-header {
+        font-size: 0.8em;
+    }
+}
